@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v4
         with:
-          context: toosball/
+          context: foosball/
           push: true
-          tags: seang5/toosball:${{github.run_number}}
+          tags: seang5/foosball:${{github.run_number}}
